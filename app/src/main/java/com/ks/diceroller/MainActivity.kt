@@ -52,7 +52,8 @@ class MainActivity : AppCompatActivity() {
         when(i){
             R.id.m1 -> Toast.makeText(this,item.title,Toast.LENGTH_SHORT).show()
             R.id.m2 -> {
-                startActivity(Intent(this@MainActivity,PdfActivity::class.java))
+                Toast.makeText(this,item.title,Toast.LENGTH_SHORT).show()
+                //startActivity(Intent(this@MainActivity,PdfActivity::class.java))
             }
             else -> return false
         }
