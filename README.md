@@ -1,1 +1,2 @@
-"# DiceRoller - First Kotlin App" 
+# KotlinApp-1
+"# Udaity - Developing Android Apps with Kotlin" 
